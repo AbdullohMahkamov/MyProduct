@@ -1,0 +1,187 @@
+.process {
+  background-image: url(/img/Bg\(1\).png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: top;
+  padding-top: 70px;
+}
+
+.process__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #22343d;
+  margin-bottom: 20px;
+}
+.process__text {
+  max-width: 540px;
+  margin: 0 auto;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #22343d;
+  margin-bottom: 50px;
+}
+.process__list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.process__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.process__quote-st {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #2f281e;
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+  margin-right: 180px;
+  &::before {
+    content: "";
+    width: 105px;
+    height: 105px;
+    display: inline-block;
+    background-image: url("/img/Avator.png");
+    background-repeat: no-repeat;
+  }
+}
+.process__quote-nd {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #2f281e;
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+  flex-direction: row-reverse;
+
+  &::before {
+    content: "";
+    width: 105px;
+    height: 105px;
+    display: inline-block;
+    background-image: url("/img/Avator\(1\).png");
+    background-repeat: no-repeat;
+  }
+}
+.process__quote-rd {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #2f281e;
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+  flex-direction: row-reverse;
+  margin: 0 180px 0 80px;
+  &::before {
+    content: "";
+    width: 105px;
+    height: 105px;
+    display: inline-block;
+    background-image: url("/img/Avator\(2\).png");
+    background-repeat: no-repeat;
+  }
+}
+.process__quote-th {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #2f281e;
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+  &::before {
+    content: "";
+    width: 105px;
+    height: 105px;
+    display: inline-block;
+    background-image: url("/img/Avator\(3\).png");
+    background-repeat: no-repeat;
+  }
+}
+.process__link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  background: #02897a;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 15px 30px;
+  width: 215px;
+  height: 55px;
+  display: block;
+  margin: 0 auto;
+}
+@media screen and(max-width: 411px) {
+  .process__list {
+    position: relative;
+  }
+  .process__item {
+    display: flex;
+    flex-direction: column;
+  }
+  .process__quote-st {
+    margin: 0 40px 155px 0;
+    text-align: start;
+
+    &::before {
+      padding-right: 105px;
+      height: 105px;
+    }
+  }
+  .process__quote-nd {
+    position: absolute;
+    top: 380px;
+    margin: 0 0 0 40px;
+    &::before {
+      padding-right: 105px;
+      height: 105px;
+    }
+  }
+  .process__quote-rd {
+    position: absolute;
+    top: 130px;
+    right: 0;
+    margin: 0 0 0 40px;
+    &::before {
+      height: 105px;
+      padding-right: 105px;
+    }
+  }
+
+  .process__quote-th {
+    &::before {
+      height: 105px;
+      padding-right: 105px;
+    }
+  }
+  .process__link {
+    margin-top: 150px;
+  }
+}

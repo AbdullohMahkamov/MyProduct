@@ -1,0 +1,89 @@
+.hero {
+  padding: 25px 0 115px 0;
+}
+
+.hero__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero__box {
+  max-width: 400px;
+}
+.hero__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #22343d;
+  margin-bottom: 20px;
+}
+.hero__text {
+  margin-bottom: 50px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #22343d;
+}
+.hero__control {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+}
+.hero__btn-left {
+  background: #02897a;
+  border-radius: 4px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 15px 40px;
+}
+.hero__btn-right {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #02897a;
+  display: flex;
+  &::before {
+    content: "";
+    width: 20px;
+    height: 17px;
+    display: inline-block;
+    background-image: url("/img/TriangleCopy6.svg");
+    background-repeat: no-repeat;
+  }
+}
+
+.hero__img {
+  max-width: 600px;
+}
+
+@media screen and(max-width: 411px) {
+  .hero__body {
+    flex-direction: column-reverse;
+  }
+  .hero__box {
+    text-align: center;
+  }
+  .hero__title {
+    font-size: 36px;
+  }
+  .hero__img {
+    width: 100%;
+  }
+  .hero__control {
+    justify-content: center;
+  }
+  .hero__btn-left {
+    padding: 15px 25px;
+  }
+}

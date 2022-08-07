@@ -1,0 +1,124 @@
+.footer {
+  padding-bottom: 50px;
+}
+.footer__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__widget {
+  margin-top: 20px;
+}
+.bx {
+  align-items: center;
+}
+.footer__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #22343d;
+  margin-bottom: 10px;
+}
+.footer__link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  color: #22343d;
+}
+.bxl-instagram {
+  font-size: 20px;
+  color: #02897a;
+  background: #edfffc;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 15px;
+  padding: 10px;
+}
+.bxl-facebook {
+  font-size: 20px;
+  color: #02897a;
+  background: #edfffc;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 15px;
+  padding: 10px;
+}
+.bxl-twitter {
+  font-size: 20px;
+  color: #02897a;
+  background: #edfffc;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 10px;
+}
+.footer__subtitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #22343d;
+  width: 280px;
+  margin-bottom: 35px;
+}
+.footer__input {
+  background: #ffffff;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  width: 330px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.footer__btn {
+  display: block;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  background: #02897a;
+  border-radius: 4px;
+  width: 130px;
+  padding: 10px 0;
+}
+.footer__desc {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #22343d;
+  text-align: center;
+  margin-top: 30px;
+}
+@media screen and(max-width: 411px) {
+  .footer__items {
+    text-align: center;
+    row-gap: 35px;
+    flex-direction: column;
+  }
+  .footer__widget {
+    margin-bottom: 30px;
+  }
+  .footer__form {
+    text-align: center;
+  }
+  .footer__subtitle {
+    margin: 35px auto;
+  }
+  .footer__btn {
+    margin: 20px auto;
+  }
+}

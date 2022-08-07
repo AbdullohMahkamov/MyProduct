@@ -1,0 +1,146 @@
+.price-card {
+  padding-bottom: 150px;
+}
+.price-card__body {
+  text-align: center;
+}
+.price-card__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343d;
+  margin-bottom: 24px;
+}
+.price-card__text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #22343d;
+  margin-bottom: 50px;
+}
+.price-card__list {
+  display: flex;
+  align-items: center;
+  column-gap: 70px;
+  justify-content: space-between;
+}
+.price-card__item {
+  max-width: 320px;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 25px 65px 30px;
+}
+.price-card__subtitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  color: #22343d;
+}
+.price-card__desk {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: #22343d;
+}
+.price-card__note {
+  margin-bottom: 15px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #22343d;
+}
+.price {
+  display: flex;
+  align-items: center;
+}
+.price__text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 100px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #02897a;
+}
+.price__box {
+  margin-left: 10px;
+}
+.price__span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: left;
+  display: block;
+  letter-spacing: 0.1px;
+  color: #02897a;
+}
+.price__desk {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1px;
+  color: #e0e0e0;
+}
+.price__btn {
+  font-family: "Poppins";
+  background: #02897a;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  padding: 10px 20px;
+  margin-top: 40px;
+  display: block;
+}
+.price-card__item:nth-child(2) {
+  background: #02897a;
+  .price__span {
+    color: #ffffff;
+  }
+  .price__text {
+    color: #ffffff;
+  }
+  .price-card__subtitle {
+    color: #ffffff;
+  }
+  .price-card__desk {
+    color: #ffffff;
+  }
+  .price-card__note {
+    color: #ffffff;
+  }
+  .price__btn {
+    color: #02897a;
+    background: #ffffff;
+    border-radius: 8px;
+  }
+}
+
+@media screen and(max-width: 411px) {
+  .price-card {
+    padding-bottom: 100px;
+  }
+  .price-card__list {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}

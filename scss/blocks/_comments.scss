@@ -1,0 +1,119 @@
+.comments__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #22343d;
+  max-width: 310px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.comments__text {
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #22343d;
+  margin-bottom: 50px;
+}
+.comments__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.comments__item {
+  background: #ffffff;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  max-width: 325px;
+  padding: 25px;
+}
+.comments__img {
+  margin-bottom: 15px;
+}
+.comments__quote {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin-bottom: 15px;
+}
+
+.comments__item:nth-child(1) {
+  .comments__box {
+    display: flex;
+    &::before {
+      content: "";
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+      background-image: url("/img/commets1.svg");
+      background-repeat: no-repeat;
+    }
+  }
+}
+.comments__item:nth-child(2) {
+  .comments__box {
+    display: flex;
+    &::before {
+      content: "";
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+      background-image: url("/img/commets1.svg");
+      background-repeat: no-repeat;
+    }
+  }
+}
+.comments__item:nth-child(3) {
+  .comments__box {
+    display: flex;
+    &::before {
+      content: "";
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+      background-image: url("/img/commets1.svg");
+      background-repeat: no-repeat;
+    }
+  }
+}
+.comments__desc {
+  margin-left: 15px;
+}
+.comments__subtitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #02897a;
+}
+.cpmments__span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+
+@media screen and(max-width: 411px) {
+  .comments__list {
+    justify-content: center;
+    row-gap: 30px;
+  }
+}
